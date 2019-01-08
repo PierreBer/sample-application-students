@@ -1,49 +1,36 @@
 language: java
 jdk: oraclejdk8
-
 env:
   global:
-    - secure: "k65RtADSjHNgZ+RvsolR67x0D/XXjhQcDbYe93180tD5m2XBFpLYvkZZ6/aizCjRSiFJC1kuAtezzoJLAZS+kZpTIio2+1yJXOhnTJi2vqiN6HnwMfAVx1ugaxC1TPquBu+FUJSMVDKxxIeAzdMYN4ckQrSC+iSXp/UJD0mmx46SRROOkg+KZAHeSwMDaWeRUhwlXwKdyyDGM+kOCzpn/VZOkN8nkVDYTAyXZu7r4sC9eHodmDE5ZmytQqxbQ6LLQYcG/xzkXj+9fxquFq69PmakFr9L88YGZ+K6oytGcvxXLgYweSFtUVMRg+176u94iZqa/KPVlBPHaCMMCbKW+0pxX3GheKijPY+DZzeUqebfNXE4F7RGhGOreb4L8pMeFtKfiYs0i5pScZ3/d7Qz5fnMXR7vZ//8z2ZY4aor9a5vSCYJTs6k/Pwijsis3VkUUOAMyEXTwII43/BgP5F1lrcPX61ydQqflM43j+qoSgMaRljVkcxWRaH4fAUqW5RgoaJHO4YWvYC56pxHWWXvgxL2ce+/HCIFp+A147ISJR0B2N6Z8eZLvO4CYho0Pti4GWKOn44YtGh+oMMueu/vDk/16wRRY3RB1Jt7vkYakIq+Us57AAJuJiWHMspHQVhu71b8N4hfZ7I+UU41V6M94KY9WFdD0/5lAzEDM1gwbEk="
-    - secure: "RHn3uIiAUZ20llIQcW6E5ItY1NqVXzaClNqP8LMa8J+anma6zMYOgsdYXTdl7YRJ1jiEwWTZYrRoFhxLuv+ezJ9a00f74XQiv7serCceclXvtKCVgUmmJmdW8v/xvzrh8OgHgUFcU7vNlQqd0tft1qgMw9bWsjWBUTXlrxIJJoGGabjF0Tl8OJgPoUuyLLTm9iJ4zqf+jbWRewWb1EyKgCokvY4vpnF1QTAWYj0i+UhQtnngq1qeNSUtxYMIIbk1sZPXoNh47pf2OrCtDP5G1gq04MFqMjunftBvgsotCUSYOaRx7JkA6rw4k6BHlk9LJC8IXu1xe+vwLv6hxL5IhxYAATwo+brWhh1P+o16uuidpxMy7eeqLikdbKTR/3Sv6yJvcKTbyUnJGgIE523HiamI2a81VyLF634IqTHlrcf3SW4IrMYWhUCnplSJHTgpkczoeYZoui5/IWMqTeZYclYAJ0cojStTg1YkVczjteuXzjGLUGIDfL2h8oqBkS5/bHqKNbO4gCbgVZyHE8mjkyYmonq7Pc/JAB2xI6rgiRiUyMABP/8f5a1AYgNoBTffq+aDbQp/CRiR5KcC6i7NwJ3qImYR4vFV2AoOp+GMglBNvJOsJxJNucroPqybudNSSIW2jqeC1KEbeMncTihRlEHAhS2Fv9gZ0HgqTGlKFHg="
-    - secure: "lXUh1O+zbOjxBiIHG1IL90inNgEtobOMM6pT2OF/uD0ezRAZGsAqSFYsT/cVH4WJojP2RIBvVCcHSvEm+w5L7gJ5QxP9XegRncISmt1kDqsLxeh2OvQhAgRbdIVMH+Mr5ppZxXrGIL7+s8nGLcPWk5dfRg39aSk92VnaEaqS2b9a80MPwtrLv003F8lP5/iacyHuOb3VdkhlCS51VHVo5T0VuWJO08olDxE1sj5AJaHNfONMcmaL7nr1z+fGHQhGZyyvxW2/4qQ2VILxZDfNC45Vv6Tbqv1PQuz6qrXzcUTzVE/A/JAPZbXQ1oWaPhuQJAqzTRgx03SLCwYzYA6AP4ktBNZGMJcXT+dquHfMwjFKIaymX4l4XFMiCijw/N9QD9MvKTQKdlcS5IPvYhMhRqYTQSOVgg228Bwpz9xB+18Vj65QbpK4nMn56jYgdujvi/s7IfxYFsVgkVlEEpSFxmMFEfzPIkqjfZRBP41dtJ67AYbljtPuYLQm9JRPJ490dtH0yhwSsk4nMPoti2uJu/9/Tgf2lqS+FULql+ReMvNiK1evb21dwHXwF6ZDrqYzPvyzzjHYoRvypLQ30zN6nDV/QTbo8dC+dDhgBDPy4RMMJRhSxK9dQADo4RBDJZPbaj139f8bUZ4/NiBLrDJXsJwfWe91NxBWtlpkdAauWSg="
-
-# Define the services to use
+  - secure: k65RtADSjHNgZ+RvsolR67x0D/XXjhQcDbYe93180tD5m2XBFpLYvkZZ6/aizCjRSiFJC1kuAtezzoJLAZS+kZpTIio2+1yJXOhnTJi2vqiN6HnwMfAVx1ugaxC1TPquBu+FUJSMVDKxxIeAzdMYN4ckQrSC+iSXp/UJD0mmx46SRROOkg+KZAHeSwMDaWeRUhwlXwKdyyDGM+kOCzpn/VZOkN8nkVDYTAyXZu7r4sC9eHodmDE5ZmytQqxbQ6LLQYcG/xzkXj+9fxquFq69PmakFr9L88YGZ+K6oytGcvxXLgYweSFtUVMRg+176u94iZqa/KPVlBPHaCMMCbKW+0pxX3GheKijPY+DZzeUqebfNXE4F7RGhGOreb4L8pMeFtKfiYs0i5pScZ3/d7Qz5fnMXR7vZ//8z2ZY4aor9a5vSCYJTs6k/Pwijsis3VkUUOAMyEXTwII43/BgP5F1lrcPX61ydQqflM43j+qoSgMaRljVkcxWRaH4fAUqW5RgoaJHO4YWvYC56pxHWWXvgxL2ce+/HCIFp+A147ISJR0B2N6Z8eZLvO4CYho0Pti4GWKOn44YtGh+oMMueu/vDk/16wRRY3RB1Jt7vkYakIq+Us57AAJuJiWHMspHQVhu71b8N4hfZ7I+UU41V6M94KY9WFdD0/5lAzEDM1gwbEk=
+  - secure: RHn3uIiAUZ20llIQcW6E5ItY1NqVXzaClNqP8LMa8J+anma6zMYOgsdYXTdl7YRJ1jiEwWTZYrRoFhxLuv+ezJ9a00f74XQiv7serCceclXvtKCVgUmmJmdW8v/xvzrh8OgHgUFcU7vNlQqd0tft1qgMw9bWsjWBUTXlrxIJJoGGabjF0Tl8OJgPoUuyLLTm9iJ4zqf+jbWRewWb1EyKgCokvY4vpnF1QTAWYj0i+UhQtnngq1qeNSUtxYMIIbk1sZPXoNh47pf2OrCtDP5G1gq04MFqMjunftBvgsotCUSYOaRx7JkA6rw4k6BHlk9LJC8IXu1xe+vwLv6hxL5IhxYAATwo+brWhh1P+o16uuidpxMy7eeqLikdbKTR/3Sv6yJvcKTbyUnJGgIE523HiamI2a81VyLF634IqTHlrcf3SW4IrMYWhUCnplSJHTgpkczoeYZoui5/IWMqTeZYclYAJ0cojStTg1YkVczjteuXzjGLUGIDfL2h8oqBkS5/bHqKNbO4gCbgVZyHE8mjkyYmonq7Pc/JAB2xI6rgiRiUyMABP/8f5a1AYgNoBTffq+aDbQp/CRiR5KcC6i7NwJ3qImYR4vFV2AoOp+GMglBNvJOsJxJNucroPqybudNSSIW2jqeC1KEbeMncTihRlEHAhS2Fv9gZ0HgqTGlKFHg=
+  - secure: lXUh1O+zbOjxBiIHG1IL90inNgEtobOMM6pT2OF/uD0ezRAZGsAqSFYsT/cVH4WJojP2RIBvVCcHSvEm+w5L7gJ5QxP9XegRncISmt1kDqsLxeh2OvQhAgRbdIVMH+Mr5ppZxXrGIL7+s8nGLcPWk5dfRg39aSk92VnaEaqS2b9a80MPwtrLv003F8lP5/iacyHuOb3VdkhlCS51VHVo5T0VuWJO08olDxE1sj5AJaHNfONMcmaL7nr1z+fGHQhGZyyvxW2/4qQ2VILxZDfNC45Vv6Tbqv1PQuz6qrXzcUTzVE/A/JAPZbXQ1oWaPhuQJAqzTRgx03SLCwYzYA6AP4ktBNZGMJcXT+dquHfMwjFKIaymX4l4XFMiCijw/N9QD9MvKTQKdlcS5IPvYhMhRqYTQSOVgg228Bwpz9xB+18Vj65QbpK4nMn56jYgdujvi/s7IfxYFsVgkVlEEpSFxmMFEfzPIkqjfZRBP41dtJ67AYbljtPuYLQm9JRPJ490dtH0yhwSsk4nMPoti2uJu/9/Tgf2lqS+FULql+ReMvNiK1evb21dwHXwF6ZDrqYzPvyzzjHYoRvypLQ30zN6nDV/QTbo8dC+dDhgBDPy4RMMJRhSxK9dQADo4RBDJZPbaj139f8bUZ4/NiBLrDJXsJwfWe91NxBWtlpkdAauWSg=
 services:
-  - docker
-
+- docker
 before_install:
-  - sudo service mysql stop
-  - docker pull takimatraining/devops-training-db
-  - docker run -d -p 127.0.0.1:3306:3306 takimatraining/devops-training-db
-
-# Run Unit Test and Integration Tests
+- openssl aes-256-cbc -K $encrypted_24a1bedb2b11_key -iv $encrypted_24a1bedb2b11_iv
+  -in travis_deploy_rsa.enc -out ~\/.ssh/travis_deploy_rsa -d
+- sudo service mysql stop
+- docker pull takimatraining/devops-training-db
+- docker run -d -p 127.0.0.1:3306:3306 takimatraining/devops-training-db
 script:
-  - mvn verify
-  - |
-    mvn clean install sonar:sonar \
-    -Dsonar.projectKey=PierreBer_sample-application-students \
-    -Dsonar.organization=pierreber-github \
-    -Dsonar.host.url=https://sonarcloud.io \
-    -Dsonar.login=0c3821a2c1785a6bf50af5003f3eb279f4b63a5c
-  # Login to Docker hub
-  - docker login -u $DOCKER_USER -p $DOCKER_PASS
-  # Tag text according to the branch
-  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
-  # Image name
-  - export IMAGE_NAME=takimatraining/sample-application
-  # Build the image (see Dockerfile) and tag it with the commit ID
-  - docker build -t $IMAGE_NAME:$TRAVIS_COMMIT .
-  # Retag the image with the previously choosen tag
-  - docker tag $IMAGE_NAME:$TRAVIS_COMMIT $IMAGE_NAME:$TAG
-  # Push the tagged image to Docker Hub
-  - docker push $IMAGE_NAME:$TAG
-
-# Cache the .m2 folder to prevent redownloading dependencies on each build
+- mvn verify
+- |
+  mvn clean install sonar:sonar \
+  -Dsonar.projectKey=PierreBer_sample-application-students \
+  -Dsonar.organization=pierreber-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=0c3821a2c1785a6bf50af5003f3eb279f4b63a5c
+- docker login -u $DOCKER_USER -p $DOCKER_PASS
+- export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH;
+  fi`
+- export IMAGE_NAME=takimatraining/sample-application
+- docker build -t $IMAGE_NAME:$TRAVIS_COMMIT .
+- docker tag $IMAGE_NAME:$TRAVIS_COMMIT $IMAGE_NAME:$TAG
+- docker push $IMAGE_NAME:$TAG
 cache:
   directories:
   - "$HOME/.m2/repository"
-
-# Send an email to the commiter if the pipeline failed at some point
 notifications:
   email:
     on_failure: always
