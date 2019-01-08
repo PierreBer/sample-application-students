@@ -27,7 +27,7 @@ public class DepartmentsServiceTest {
     public void init() {
         MockitoAnnotations.initMocks(this);
     }
-
+/*
     @Test
     public void testGetDepartmentByName() {
         when(departmentDAO.getDepartmentByName("DepartmentTest")).thenReturn(department);
@@ -42,5 +42,5 @@ public class DepartmentsServiceTest {
     @Test
     public void testGetDepartmentByNameWithEmptyValue() {
         assertThrows(IllegalArgumentException.class, () -> departmentService.getDepartmentByName(""));
-    }
+    }*/
 }
