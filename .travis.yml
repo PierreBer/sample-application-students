@@ -19,7 +19,7 @@ before_install:
   - chmod 400 /tmp/travis_deploy_rsa
   - eval "$(ssh-agent -s)"
   - ssh-add /tmp/travis_deploy_rsa
-  - echo -e "Host $SERVER_IP_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo -e "Host $SERVER_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - sudo service mysql stop
   - docker pull takimatraining/devops-training-db
   - docker run -d -p 127.0.0.1:3306:3306 takimatraining/devops-training-db
